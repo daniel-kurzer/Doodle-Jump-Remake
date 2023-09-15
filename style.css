@@ -1,0 +1,36 @@
+html {
+    background-color: grey;
+}
+
+.grid {
+   width: 400px;
+   height: 600px;
+   background-image: url(/Images/hop-bck@2x.png);
+   position: relative;
+   font-size: 200px;
+   text-align: center;
+   vertical-align: middle;
+   display: flex;
+   flex-direction: column;
+   left: 40%;
+   top: 160px;
+   overflow: hidden;
+   border: 2px solid black;
+   border-radius: 10px;
+}
+
+.doodler {
+    width: 70px;
+    height: 85px;
+    background-image: url(/Images/red-lik-left-odskok@2x.png);
+    background-size: cover;
+    position: absolute;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-color: rgba(2, 179, 2, 0.699);
+    position: absolute;
+    border-radius: 10px;
+}
